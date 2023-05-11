@@ -1,230 +1,495 @@
 <!DOCTYPE html>
-<html lang="en"> 
- <head> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="icon" href="imgs/spi.jpg" type="image/icon type">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Barrio|Sofia|Trirong">
-      <link rel="stylesheet" href="style/style2.css">
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   
+    <link
+      rel="icon"
+      href="imgs/Black And White Rakia Design Studio Logo.png"
+      type="image/icon type"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Barrio|Sofia|Trirong"
+    />
+    <link rel="stylesheet" href="style/style2.css" />
 
-    <title>
-       ShoeWeb
-    </title>
- </head>
-<body>
-<!--HEADER SECTION-->
-<header class="header">
-
-    <div class="navBar-section">
-
-        <div class="navBar-logo">
-        <h1> Shoe<span>Web</span><i class="fas fa-shoe-prints" style="color:red"></i></h1>
-          </div>
-
+    <title>ShoeWeb</title>
+  </head>
+  <body>
+    <!--HEADER SECTION-->
+    <section id="header">
+      <a href="#">
+        <img src="imgs/Black_logo.png" alt="" class="logo" />
+      </a>
 
       
-         <div class="search-bar"  class="navbar bg-light">
-            
-            <div class="container-fluid">               
-              <form class="d-flex" role="search">
-              <input type="text" name="search" placeholder="Search shoe" size="90"class="form-control me-2"aria-label="Search">
-              <button type="submit" class=" search-btn" class="btn btn-outline-success"><i class=" fa fa-search"></i>
-              </button>
-              </form>
-            </div>
-        </div> 
+        <ul id="navbar" class="active">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#ShopNow">Kicks</a></li>
+          <li><a href="#AboutUS">About Us</a></li>
+          <li><a href="#contacts">Contact Us</a></li>
+          <li id="lg-cart">
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i><span>0</span></a>
+          </li>
+          <a href="#" id="close"><i class="fa fa-close"></i></a>
+        </ul>
+      
+      <div id="mobile">
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i><span>0</span></a>
+        <a><i id="bar" class="fas fa-outdent"></i></a>
 
-    
-     </div>
+      </div>
+    </section>
 
-     <div class="navBar-link">
-      <nav class="navbar navbar-dark"> 
-        <div class="container-fluid">
-
-           <a class="nav-link" href="#Home">Home</a>
-           <a class="nav-link" href="#AboutUS">About Us</a>      
-           <a class="nav-link"  href="#Brands" >Kicks Catalog</a>
-           <a class="nav-link"  href="#ShopNow">Shop Now</a>
-           <a class="nav-link " href="#contacts">Contact Us</a>
-           
-         
-        </div>
-      </nav>
-     </div>
-
-</header>
-
-<!--ABOUT US SECTION-->
-   <div class="image" id="AboutUS">
+    <!--ABOUT US SECTION-->
+    <div class="image" id="AboutUS">
       <div class="img-p">
-       <h1>Shoe<span>Web</span></h1>
-       <h3>ShoeWeb Is an Online ThriftSHOP That Connects buyers to Affordable And Stylish Kicks from Jordan,Yeezy And Airforce 1's.</h3>
+        <h1>ShoeWeb</h1>
+        <h3>
+          ShoeWeb Is an Online ThriftSHOP That Connects buyers to Affordable And
+          Stylish Kicks from Jordan,Yeezy And Airforce 1's.
+        </h3>
+        <marquee direction="right"><h3> Uncomparable Drip!!</h3></marquee>
       </div>
-  </div> 
-
-<!--SHOPPING SECTION-->
-  <div class="section-title"id="ShopNow">
-       <h1> Yeezy</h1>
-  </div>
-
-  <div class="image-logo3"></div>
-
-   <div class="img-section" >
-     <div class="img-card">
-       <img class="img-fluid" src="imgs/The-adidas.jpg" alt="jd"  width="300px">
-       <h6>Yeezy 350x </h6><br>
-           <p>Color: Ornge/Red/Blue<br>Size :45<br>
-        FROM: Kes69999 <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-     </div>
-      <div class="img-card">
-        <img class="img-fluid" src="imgs/yex.jpg" alt="jd" width="200px">
-        <h6>Yeezy 350x </h6><br>
-           <p>Color: Ornge<br>Size :45<br>
-            FROM: Kes 69999  
-            <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-
-      </div>
-     <div class="img-card">
-       <img class="img-fluid" src="imgs/yss.jpeg" alt="jd" width="275px">
-       <h6>Yeezy 350x </h6><br>
-           <p>Color: Ornge<br>Size: 45<br>
-            FROM: Kes69999 <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-      </div>
-
-      <div class="img-card">
-      <img class="img-fluid" src="imgs/adigloo.jpg" alt="jd" width="300px">
-      <h6>Yeezy 350x</h6><br>
-           <p>Color: Ornge<br>Size: 45<br>
-          FROM: Kes69999  <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i> </button> </p>
-      </div>
-
-   </div>
-
-   <div class="section-title"id="ShopNow">
-    <h1> Jordan's</h1>
-   </div>
-
-  <div class="image-logo"></div>
-
-<div class="img-section"  >
-  <div class="img-card">
-    <img class="img-fluid" src="imgs/nike-air.jpg" alt="jd"  width="400px">
-    <h6>Jordan 350</h6><br>
-        <p>Color: Ornge<br>Size :40<br>
-       FROM: Kes69999   <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-  </div>
-   <div class="img-card">
-     <img class="img-fluid" src="imgs/shoejdrr.jpg" alt="jd" width="200px" >
-     <h6>Jordan</h6><br>
-        <p>Color:Blue/Red<br>Size :45<br>
-       FROM: Kes69999  
-         <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-
-   </div>
-  <div class="img-card">
-    <img class="img-fluid" src="imgs/jd2.webp" alt="jd" width="250px">
-    <h6>Yeezy 350</h6><br>
-        <p>Color: Ornge<br>Size: 45<br>
-       FROM: Kes69999 <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-   </div>
-
-   <div class="img-card">
-   <img class="img-fluid" src="imgs/jdblk.jpg" alt="jd" width="400px">
-   <h6>Jordan</h6><br>
-        <p>Color: Ornge/Blue/yellow<br>Size: 45<br>
-      FROM: Kes69999  <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i> </button> </p>
-
     </div>
-</div>
 
-<div class="section-title"id="ShopNow">
-  <h1> Airforce 1's</h1>
-</div>
+    <!--SHOPPING SECTION-->
+    <div class="section-title" id="ShopNow">
+      <h1>Yeezy</h1>
+    </div>
 
-<div class="image-logo2"></div>
+    <div class="image-logo3"></div>
 
-<div class="img-section"  >
-<div class="img-card">
-  <img class="img-fluid" src="imgs/h331-1.jpg" alt="jd"  width="350px">
-  <h6>Cactus</h6><br>
-      <p>Color: Ornge<br>Size :45<br>
-    FROM: Kes69999  <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
-</div>
- <div class="img-card">
-   <img class="img-fluid" src="imgs/Nike-Somos.jpg" alt="jd" width="350px">
-   <h6>Yeezy 35</h6><br>
-      <p>Color: Purple/Blue/<br>Size :45<br>
-   FROM: Kes 69999  
-       <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
+    <section id="img-section">
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/The-adidas.jpg" alt="jd" />
 
- </div>
-<div class="img-card">
-  <img class="img-fluid" src="imgs/1d72222c.jpg" alt="jd" width="200px">
-  <h6>Yeezy 350</h6><br>
-      <p>Color: Ornge<br>Size: 45<br>
-     FROM: Kes 69999 <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i></button></p> 
- </div>
+        <div>
+          <h4>Yeezy 350x</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+            </select>
+          </h6>
 
- <div class="img-card">
- <img class="img-fluid" src="imgs/002.jpg" alt="jd" width="250px">
- <h6>Yeezy 350</h6><br>
-      <p>Color: Ornge<br>Size: 45<br>
-     FROM: Kes69999  <button>Order Now  <i class="fa fa-shopping-cart" style="color: red;"></i> </button> </p>
-
-  </div>
-</div>
-
-<!--CONTACTS SECTION-->
-<div class="" id="contacts">
-<footer>
-
-  <div class="location">
-    <h3>Location</h3>
-       <hr>
-    <p> Our shop is located in CBD nairobi Town Along jeevanjee Shop No.</p>
-
-    <p> Contact us</p>
-      <div class="email">
-         <label for="email">Your Email</label> <br>
-         <input type="text" placeholder="kokojuma77@gmail.com" size="40" >
+          <h2>$230</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
       </div>
-      <hr>  
-      <div class="social-icons">
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-facebook"></i>
-       <i class="fab fa-whatsapp"></i>
-       <i class="fab fa-twitter"></i>
-     </div>  
-                    
-  </div>
-              
-    <div class="line"></div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/The-adidas.jpg" alt="jd" />
 
-  <div class="address">
-     <p><i class="fa-solid fa-location-pin"></i> Kenya, Nairobi</p>
-       <p>
-       <i class="fa-solid fa-envelope"></i> nimimijesse7@gmail.com
-        </p>
-       <p><i class="fa-solid fa-phone"></i> + 254 745 581 399</p>
-  </div>
-                
-   <div class="line"></div>
+        <div>
+          <h4>Yeezy 350x</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="White">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+            </select>
+          </h6>
 
-  <div class="help">
-      <p> HELP AND INFROMATION<BR></p>
-      <p>TERMS AND CONDITIONS<br></p>
-      <p> SHIP WITH US <i class="fas fa-heart" style="color: greenyellow;"></i></p>
-       <br>
-       Copyright 2022.All Rights Reserved &copy;          
-  </div>
-                
-</footer>
-</div>
+          <h2>$230</h2>
+          <button  class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/The-adidas.jpg" alt="jd" />
 
-</body>
-      
-      
+        <div>
+          <h4>Yeezy 350x</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="White">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value="">Black</option>
+              <option value="Red">Red</option>
+              <option value="Blue">Blue</option>
+              <option value="White">White</option>
+            </select>
+          </h6>
+
+          <h2>$230</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/The-adidas.jpg" alt="jd" />
+
+        <div>
+          <h4>Yeezy 350x</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="Red">Red</option>
+              <option value="Blue">Blue</option>
+              <option value="White">White</option>
+            </select>
+          </h6>
+
+          <h2>$230</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-title" id="ShopNow">
+      <h1>Jordan's</h1>
+    </div>
+
+    <div class="image-logo"></div>
+
+    <section id="img-section">
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/nike-air.jpg" alt="jd" />
+
+        <div>
+          <h4>Nike LowCut</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/nike-air.jpg" alt="jd" />
+
+        <div>
+          <h4>Nike LowCut</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/nike-air.jpg" alt="jd" />
+
+        <div>
+          <h4>Nike LowCut</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/nike-air.jpg" alt="jd" />
+
+        <div>
+          <h4>Nike LowCut</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value=""></option>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-title" id="ShopNow">
+      <h1>Trainers</h1>
+    </div>
+
+    <div class="image-logo2"></div>
+
+    <section id="img-section">
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/Nike-Somos.jpg" alt="jd" />
+
+        <div>
+          <h4>Airmax Spider</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+              <option value="42">42</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/Nike-Somos.jpg" alt="jd" />
+
+        <div>
+          <h4>Airmax Spider</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+              <option value="42">42</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/Nike-Somos.jpg" alt="jd" />
+
+        <div>
+          <h4>Airmax Spider</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+              <option value="42">42</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+      <div class="img-card">
+        <img class="img-fluid" src="imgs/Nike-Somos.jpg" alt="jd" />
+
+        <div>
+          <h4>Airmax Spider</h4>
+          <h6>
+            Color :
+            <select>
+              <option value="black">Black</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="white">White</option>
+            </select>
+          </h6>
+          <h6>
+            Size :<select>
+              <option value="45">45</option>
+              <option value="44">44</option>
+              <option value="43">43</option>
+              <option value="42">42</option>
+            </select>
+          </h6>
+
+          <h2>$277</h2>
+          <button class="add-cart">Order Now <i class="fa fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </section>
+    <section id="sm-banner">
+      <div class="banner-box">
+      <h3>Uncomparable Dripp!!</h3>
+        <marquee>  <h3>In Stock</h3></marquee>
+      </div>
+      <div class="banner-box2 banner-box">
+        <h3>Uncomparable Dripp!!</h3>
+        <marquee><h3>In Stock</h3></marquee>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters.</h4>
+        <p>Get E-mail updates about our <span>latest arrivals.</span and news</p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail">
+        <button>Sign Up</button>
+
+      </div>
+    </section>
+
+    <!--CONTACTS SECTION-->
+    
+      <footer id="contacts">
+        <div class="location">
+
+          <h3>Location</h3>
+          <hr />
+          <p>
+            Our shop is located in CBD nairobi Town Along jeevanjee Shop No.
+          </p>
+
+          <h3>Contact us</h3>
+          <form class="email">
+            <label for="email">Your Email</label> <br />
+            <input type="text" placeholder="kokojuma77@gmail.com" size="40" />
+            
+          </form>
+          <hr />
+          <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="address">
+          <p><i class="fa-solid fa-location-pin"></i> Kenya, Nairobi</p>
+          <p><i class="fa-solid fa-envelope"></i> nimimijesse7@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> + 254 745 581 399</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="help">
+          <p>HELP AND INFROMATION<br /></p>
+          <p>TERMS AND CONDITIONS<br /></p>
+          <p>
+            SHIP WITH US <i class="fas fa-heart" style="color: greenyellow"></i>
+          </p>
+          <br />
+          Copyright 2022.All Rights Reserved &copy;
+        </div>
+
+      </footer>
+      <script src="script.js"></script>
+  </body>
 </html>
